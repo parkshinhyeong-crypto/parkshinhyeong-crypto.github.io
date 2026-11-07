@@ -25,6 +25,6 @@ The agency dropdown box enables viewing one agency at a time. The University of 
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
 
 <script>
-vegaEmbed('#chart1', '{{ "/python_notebooks/chart1.json" | relative_url }}');
-vegaEmbed('#chart2', '{{ "/python_notebooks/chart2.json" | relative_url }}');
+vegaEmbed('#chart1', '{{ "/assets/chart1.json" | relative_url }}');
+vegaEmbed('#chart2', '{{ "/assets/chart2.json" | relative_url }}');
 </script>
