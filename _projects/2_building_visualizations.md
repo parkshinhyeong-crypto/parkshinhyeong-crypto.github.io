@@ -8,7 +8,7 @@ permalink: /projects/building-visualizations/
 ## Buildings by Agency
 <div id="chart1"></div>
 
-The first chart depicts the building count for each Illinois agency. Nominal agency names are on the y-axis while quantitative building counts are on the x-axis. Horizontal bars have been used to enhance readability, and agencies are ordered from highest to lowest count to make comparisons easier. The default blue is used for the bars because color does not denote any other variable; thus, a separate color palette is not needed. Altair groups records by agency and then counts the records per group through the count() function. No other data transformations have been done for this chart.
+The first chart depicts the building count for each Illinois agency. Nominal agency names are on the y-axis while quantitative building counts are on the x-axis. Horizontal bars have been used to enhance readability, and agencies are ordered from highest to lowest count to make comparisons easier. The default blue is used for the bars because color does not denote any other variable; thus, a separate color palette is not needed. Altair groups records by agency and then counts the records per group through the count() function. I have kept only the Agency Name and Year Constructed columns and looked for missing values; all 8,862 records were kept.
 ## Construction Years by Agency
 <div id="chart2"></div>
 
