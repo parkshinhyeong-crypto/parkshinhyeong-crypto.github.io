@@ -7,7 +7,7 @@ custom_js:
   - vega.min
   - vega-lite.min
   - vega-embed.min
-  - jucharts
+  - justcharts
 ---
 # Illinois  Building Visualizations
 ## Buildings by Agency
